@@ -2438,10 +2438,221 @@ be set to display none.
 
 	<div id="content" class="wrap">
 
-<section class="vertical text-center clearfix wrap">
-	<a href="designer.html" class="button">Designer</a>
-	<a href="coder.html" class="button highlight">Coder</a>
-</section>
+<a href="/" class="button highlight">Back</a>
+
+<h1>Coding Checklist</h1>
+
+<h3>So you think you&rsquo;ve finished your website? Well, that might be the case, but just run through this list to make sure you&rsquo;ve covered everything. And I mean everything.</h3>
+
+<hr />
+
+<h2>Responsive Design</h2>
+
+<p>If you&rsquo;ve been given the designs, they should match almost exactly. The exceptions would come with font-rendering.</p>
+
+<hr />
+
+<h3>Test for Desktop Layout</h3>
+
+<pre><code>Desktop view is roughly 1040px and higher in width
+</code></pre>
+
+<h3>Test for Tablet Layout, Both Orientations</h3>
+
+<pre><code>Test the code against the layout, move the browser ~100px+- each direction
+</code></pre>
+
+<h3>Test for Mobile Layout, Both Orientations</h3>
+
+<pre><code>Check everything is lined up.
+</code></pre>
+
+<h3>Test for height issues</h3>
+
+<pre><code>Sometimes, height can be an issue, make sure that fonts and line-heights are accommodated for when the browser isn't tall.
+</code></pre>
+
+<hr />
+
+<h2>Browser Testing</h2>
+
+<hr />
+
+<p>Browser testing needs to span from Mac to PC, as both render differently.</p>
+
+<ul>
+<li>Does it seem right in Chrome?</li>
+<li>Does it seem right in Firefox?</li>
+<li>Does it seem right in Safari?</li>
+<li>Does it seem right in Internet Explorer 8 / 9 / 10 / 11?</li>
+<li>Does it seem right in Opera?</li>
+</ul>
+
+
+<h2>Device Testing</h2>
+
+<ul>
+<li>Does it seem right on iPhone 5/5s - 3gs?</li>
+<li>Does it seem right on iPad / Mini?</li>
+<li>Does it seem right on Samsung Galaxy?</li>
+<li>Does it seem right on Nexus?</li>
+</ul>
+
+
+<hr />
+
+<h2>Crawling the site for errors</h2>
+
+<hr />
+
+<p><a href="http://www.feedthebot.com/">Feed The Bot</a> - This will highlight any SEO and crawling issue that you might have relating to the site.</p>
+
+<p><a href="http://nibbler.silktide.com/">Nibbler</a> - This will rate your site</p>
+
+<hr />
+
+<h2>Optimize</h2>
+
+<p>The server has PageSpeed built into it now, so your assets will be served as a compressed / cached version of itself. If you run into any issues, put this <a href="#">Link to gist</a> in your <strong>.htaccess</strong> file.</p>
+
+<hr />
+
+<ul>
+<li><p>Check load times</p>
+
+<ul>
+<li><a href="http://developers.google.com/speed/pagespeed/insights/">Pagespeed</a>, <a href="https://developer.yahoo.com/yslow/">Yslow</a> and <a href="http://gtmetrix.com/">GTmetrix</a> are great places to start</li>
+</ul>
+</li>
+<li><p>Reduce HTTP requests by combining assets</p>
+
+<pre><code>  You don't need to call 20 style sheets on your site when you can use just the one stylesheet. The same goes with Google Webfonts. You don't need to call them all individually when you can call them all together as one.
+</code></pre></li>
+<li><p>Optimise images with <strong>ImageMagick Plugin</strong></p></li>
+<li><p>Compress JS and SCSS with CodeKit 2</p>
+
+<pre><code>  Strip out comments and line breaks using the compression methods in CodeKit 2
+</code></pre></li>
+</ul>
+
+
+<hr />
+
+<h2>Website Properties and Assets</h2>
+
+<hr />
+
+<h3>Favicon</h3>
+
+<pre><code>&lt;link rel="icon" type="image/x-icon" href="/favicon.ico" /&gt;
+&lt;link rel="icon" type="image/x-icon" href="/favicon.png" /&gt;
+</code></pre>
+
+<h3>Apple touch icon</h3>
+
+<pre><code>&lt;link rel="apple-touch-icon" href="/favicon.png" /&gt;
+</code></pre>
+
+<h3>Windows 8 Tile</h3>
+
+<pre><code>&lt;meta name="msapplication-TileImage" content="pics/logowin8pin.png"/&gt;
+&lt;meta name="msapplication-TileColor" content="#ffffff"/&gt;
+</code></pre>
+
+<hr />
+
+<h2>Pre-Search Engine Optimisation</h2>
+
+<hr />
+
+<h3>Different Title on every page</h3>
+
+<pre><code>&lt;title&gt;10 Things To Consider When Choosing The Perfect CMS | How-To | Smashing Magazine&lt;/title&gt;
+</code></pre>
+
+<h3>Meta Description on every page</h3>
+
+<pre><code>&lt;meta name="description" content="By Paul Boag Choosing a content management system can be tricky. Without a clearly defined set of requirements, you will be seduced by fancy functionality that you will never use. What then should you look" /&gt;
+</code></pre>
+
+<hr />
+
+<p>Proofread spelling and capitalisation</p>
+
+<p>Check spelling where appropriate
+Check Links Work</p>
+
+<p>http://www.screamingfrog.co.uk/seo-spider/
+Test Contact Forms</p>
+
+<p>Test with javascript turned off</p>
+
+<p>Test valid html</p>
+
+<p>http://validator.w3.org
+Common issues</p>
+
+<!--[if (IE 8)&!(IEMobile)]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+
+<p>RSS link for blog</p>
+
+<p>Place between tags
+<link rel="alternate" type="application/rss+xml" title="Site or RSS title" href="link-to-feed" /></p>
+
+<p>Check xml site map in root</p>
+
+<p>http://www.xml-sitemaps.com/ for static sites, ensure url is www.mydomain.com/sitemap.xml.
+For wordpress install a plugin
+Check analytics and webmaster tools are installed and linked and that you have submitted your site map.</p>
+
+<p>http://www.bing.com/toolbox/submit-site-url Defensive design
+404 Page with a link to homepage or other page suggestions
+Error handling on forms, give the user enough information to fix their own problems.</p>
+
+<h3>Optimize</h3>
+
+<ul>
+<li>Check load times</li>
+<li>Reduce HTTP requests</li>
+<li>Optimize images</li>
+<li>ImageMagick Plugin</li>
+<li>Compress JS and CSS</li>
+<li>Consider Caching</li>
+<li>Super Cache plugin</li>
+<li>User SVGS and PNG/JPG backups
+  using JS snippet located here:</li>
+</ul>
+
+
+<h3>Backups + IWP Plugin</h3>
+
+<ul>
+<li>backupbuddy</li>
+<li>Security</li>
+</ul>
+
+
+<p>bad behaviour plugin
+SSL certificate
+Print Style Sheet</p>
+
+<p><link rel="stylesheet" type="text/css" href="print.css" media="print" /> Ensure no test content</p>
+
+<ul>
+<li>lorem ipsum</li>
+<li>test links</li>
+<li>tagline (WordPress Mainly)</li>
+<li><p>Alt tags on images</p></li>
+<li><p>Blank if no wording or a decorative image but needs to be there.</p></li>
+<li>Canonical domain issues</li>
+<li>Only one H1 tag on each page</li>
+<li>Social media links</li>
+<li>Check non designed pages look ok, such as author pages and category pages if using wordpress</li>
+<li><p>Check dates represented are in english format</p></li>
+<li><p>Check padding on forms</p></li>
+</ul>
+
 
 </div> <!-- End of #content -->
 

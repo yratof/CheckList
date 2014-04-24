@@ -1,29 +1,4 @@
-<!doctype html>
-<head>
-	<meta charset="utf-8">
-	
-	<!-- Google Chrome Frame for IE -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
-	<title>Checklist | Designer | Coder</title>
-	
-	<!-- mobile meta (hooray!) -->
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
-	<link rel="apple-touch-icon" href="/library/images/apple-icon-touch.png">
-	<link rel="icon" href="/favicon.png">
-	<!--[if IE]>
-	  <link rel="shortcut icon" href="/favicon.ico">
-	<![endif]-->
-	<!-- or, set /favicon.ico for IE10 win -->
-	<meta name="msapplication-TileColor" content="#f01d4f">
-	<meta name="msapplication-TileImage" content="/library/images/win8-tile-icon.png">
-	
-	<style>
-		/* This imports the styles into the header directly. No requests.*/
-		/*! Made with Meat: http://forsvunnet.github.io/meat/  */
+/*! Made with Meat: http://forsvunnet.github.io/meat/  */
 /******************************************************************
 Site Name: MEAT
 Author: Eivin + Andrew
@@ -2430,22 +2405,3 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-	</style>
-
-</head>
-
-<body>
-
-	<div id="content" class="wrap">
-
-<section class="vertical text-center clearfix wrap">
-	<a href="designer.html" class="button">Designer</a>
-	<a href="coder.html" class="button highlight">Coder</a>
-</section>
-
-</div> <!-- End of #content -->
-
-<!-- Javascript here -->
-
-</body>
-</html>
