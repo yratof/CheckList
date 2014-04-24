@@ -59,7 +59,7 @@ Browser testing needs to span from Mac to PC, as both render differently.
 ---
 
 ## Optimize
-The server has PageSpeed built into it now, so your assets will be served as a compressed / cached version of itself. If you run into any issues, put this [Link to gist](#) in your **.htaccess** file.
+The server has PageSpeed built into it now, so your assets will be served as a compressed / cached version of itself. If you run into any issues, put this [PageSpeed off Gist](https://gist.githubusercontent.com/yratof/11248706/raw/82decc84cd960fcf7bcf425a8386b679f514ed63/.htaccess) in your **.htaccess** file.
 
 ---
 
@@ -120,7 +120,7 @@ The server has PageSpeed built into it now, so your assets will be served as a c
 
 * Proofread spelling and capitalisations
 * Check spellings
-* Search for Demo Text like Lorum Ipsum.
+# ### * Search for Demo Text like Lorum Ipsum.
 
 ---
 

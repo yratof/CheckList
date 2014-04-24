@@ -40,10 +40,10 @@
 
 	You've used colours in your design, most likely you've used a subset of colours. These colours will need to be defined in the code. If you've used a navigation bar that has a different colour in each link, put the HEX code for that colour in the readme.md file.
 	
-> ie
+ie:
 
-> - FF4050 - Red - Main brand colour
-> - EFC050 - Orange - Secondary brand colour
+- FF4050 - Red - Main brand colour
+- EFC050 - Orange - Secondary brand colour
 
 ### What Fonts have been used?
 
