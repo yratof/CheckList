@@ -4,6 +4,43 @@
 
 ---
 
+## Bit by Bit
+
+---
+
+### Header
+
+#### Desktop
+
+- **Main Elements**
+	- Does the header match the design on a desktop computer?
+	- Is the logo .svg? Does it have a .png fallback?
+
+- **Navigation**
+	- Does the navigation fit inline?
+	- Do links have a :hover state?
+	- Did you check the :visited state?
+	- Do the Drop Downs
+
+#### Tablet
+
+	Does the header match the design on a Tablet?
+
+
+#### Mobile
+
+	Does the header match the design on a Mobile?
+
+
+### Footer
+
+
+
+### Copy
+
+
+---
+
 ## Responsive Design
 If you've been given the designs, they should match almost exactly. The exceptions would come with font-rendering.
 
@@ -56,6 +93,7 @@ Browser testing needs to span from Mac to PC, as both render differently.
 
 [Nibbler](http://nibbler.silktide.com/) - This will rate your site
 
+[Facebook Debug](https://developers.facebook.com/tools/debug) - Check what Facebook sees when a page is shared
 ---
 
 ## Optimize
