@@ -75,7 +75,7 @@ The server has PageSpeed built into it now, so your assets will be served as a c
 * Optimise images with **ImageMagick Plugin**
 * Compress JS and SCSS with CodeKit 2
 
-		Strip out comments and line breaks using the compression methods in CodeKit 2
+		Ideally, Strip out comments and line breaks using the compression methods in CodeKit 2. Compressed is the ideal output from CK2. 
 
 
 ---
@@ -114,9 +114,17 @@ The server has PageSpeed built into it now, so your assets will be served as a c
 
 ---
 
-Proofread spelling and capitalisation
+## Copywriting + Content
 
-Check spelling where appropriate
+---
+
+* Proofread spelling and capitalisations
+* Check spellings
+* Search for Demo Text like Lorum Ipsum.
+
+---
+
+
 Check Links Work
 
 http://www.screamingfrog.co.uk/seo-spider/
@@ -146,17 +154,6 @@ http://www.bing.com/toolbox/submit-site-url Defensive design
 404 Page with a link to homepage or other page suggestions
 Error handling on forms, give the user enough information to fix their own problems.
 
-### Optimize
-
-* Check load times
-* Reduce HTTP requests
-* Optimize images
-* ImageMagick Plugin
-* Compress JS and CSS
-* Consider Caching
-* Super Cache plugin
-* User SVGS and PNG/JPG backups
-	using JS snippet located here:
 
 ### Backups + IWP Plugin
 
