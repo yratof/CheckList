@@ -31,6 +31,10 @@ LAYOUT & GRID STYLES
 	margin: 0 auto;
 }
 
+.desktop	{ display: none; }
+.tablet		{ display: block; }
+.mobile		{ display: none; }
+
 /*********************
 HEADER STYLES
 *********************/

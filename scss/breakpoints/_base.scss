@@ -36,6 +36,35 @@ body {
 }
 
 
+// Grid for will
+
+
+.button{
+	margin-bottom: 20px;
+}
+
+.desktop	{ display: none; }
+.tablet		{ display: none; }
+.mobile		{ display: block; }
+
+.grided{
+	border: 1px solid red;
+}
+
+.gutter{
+	background: $grey-lighter;
+}
+
+.grid{
+	display: inline-block;
+	height: 1000px;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	
+	&:first-child{ border-left: 0;}
+	&:last-child{ border-right: 0;}
+}
+
 /*********************
 HEADING STYLES - Type
 *********************/
