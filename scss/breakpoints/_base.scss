@@ -58,8 +58,8 @@ body {
 .grid{
 	display: inline-block;
 	height: 1000px;
-	border-left: 1px solid blue;
-	border-right: 1px solid blue;
+	border-left: 1px solid $brand-colour;
+	border-right: 1px solid $brand-colour;
 	
 	&:first-child{ border-left: 0;}
 	&:last-child{ border-right: 0;}
