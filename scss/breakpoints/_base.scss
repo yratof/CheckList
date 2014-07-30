@@ -274,70 +274,31 @@ MOBILE DROPDOWN NAVIGATION STYLES
 	position: relative;
 }
 
-/*********************
-NAVIGATION STYLES
-*********************/
 
-.nav {
-	border-top: 1px solid $menu-border;
-	margin: 0;
-	@media only screen and (max-width: 47.900em) {	
-				.js & {
-					overflow: hidden;
-					max-height: 0;
-					@include transition(0.4s all $ease-in-out-quart);
-					&.show { max-height: 2000px; }
-				}
-			}
-	font-family: $sans-serif;
+
+
+
+
+
+
+
+table{
+	width: 800px;
 	
-	.js & {
-		border-top: 0;
-
-		// This only applies to js enabled windows
-		// We use js to adjust the top position
-		//position: absolute;
-		left: 0;
-		right: 0;
-		display: inline-block;
-		width: 100%;
-		position: relative;
-		top: 0;
-		z-index: 5;
-		
-		li{
-			a{
-			width: 100%;
-			}
-		}
+	thead{
+		font-weight: 700;
+		padding: 20px;
 	}
 	
-	li {
-		a {
-			display: inline-block;
-			text-decoration: none;
-		}
+	td{
+		text-align: left;
+		padding: 10px;
 		
-		ul.sub-menu,
-		ul.children {
-			@media only screen and (max-width: 47.900em) {	
-				.js & {
-					overflow: hidden;
-					max-height: 0;
-					@include transition(0.4s all $ease-in-out-quart);
-					&.show { max-height: 2000px; }
-				}
-			}
-			li {
-				a {
-					//@include bg($white);
-					padding-left: $gutter * 2;
-				}
-			}
+		& + td {
+			text-align: right;
 		}
-	} /* end .menu li */
-} /* end .nav */
-
+	}
+}
 
 
 /*********************
